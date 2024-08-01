@@ -71,3 +71,33 @@
     padding: 20px 0px;
     text-align: center;
 }
+
+@media (min-width: 1200px) {
+    .splash {
+        margin-top: 5%;
+    }
+
+    .logo {
+        width: 20vw;
+    }
+
+    .btn-container {
+        margin-top: 5rem;
+        margin-bottom: 0%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 20vw;
+    }
+
+    .desc {
+        text-align: center;
+        letter-spacing: 0.185rem;
+        width: 20vw;
+    }
+}
